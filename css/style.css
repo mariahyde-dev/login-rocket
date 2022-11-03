@@ -1,0 +1,101 @@
+
+
+html, body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container img{
+    float: left;
+    
+}
+
+.form{
+    padding: 80px;
+    margin: 90px;
+    width: 300px;
+    height: auto;
+    background-color: white;
+    float: left;
+}
+
+    
+
+.form h2{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+.form p.warning{
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
+    margin-top: -15px;
+}
+
+.form p.forget{
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: underline;
+    
+   
+}
+
+.input-container input[type=text]{
+    margin-top: 8px; 
+    width: 344px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+.form input[type=submit]{
+    color: white;
+	font-size: 17px;
+	width: 344px;
+	height: 40px;
+	display: inline-block;
+	background-color: #6C4CA4;
+    border: 5px solid #8D65E0;
+    border-radius: 10px;
+    border-top: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+
+.form input[type=submit]:hover{
+	background-color: #323665;
+}
+
+
+.account p.singup{
+    float:right;
+    font-size: 15px;
+
+
+}
+
+a:link {
+    color: #73398e;
+    font-weight: bold;
+
+}
+
+
+
+
+
